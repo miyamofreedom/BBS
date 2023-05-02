@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </dd>
                 <dt>パスワード</dt>
                 <dd>
-                <input type="text" name="email" size="35" maxlength="255" value="<?php echo isset($email) ? h($email) : ''; ?>"/>
+                <input type="password" name="password" size="35" maxlength="255" value="<?php echo isset($password) ? h($password) : ''; ?>"/>
                 </dd>
             </dl>
             <div>
